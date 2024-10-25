@@ -6,7 +6,7 @@
 
 * The **Harvard architecture** is a computer architecture that separates memory storage for instructions and data, unlike the von Neumann architecture, which uses a single memory for both. This separation allows for simultaneous access to instructions and data, enhancing processing speed. It is commonly used in embedded systems and signal processing.
 
-![Alt text](Images\PIC_Architecture_diag.jpg)
+<img alt="Architecture" src="Images\PIC_Architecture_diag.jpg"/>
 
 * PIC Microcontrollers from Microchip Company are divided into 4 large families. Each family has a variety of components that provide built-in special features:
 
@@ -39,7 +39,7 @@
 
 * Another safety feature is the Watchdog Timer (WDT), which is a self reliable timer that resets the whole program if required.
 
-![Alt text](Images\PIC16F877A_pinout.jpg)
+<img alt="Pin_out" src="Images\PIC16F877A_pinout.jpg"/>
 
 It is crucial to thoroughly read and understand the datasheet of the IC (Integrated Circuit) before starting any development or project. The datasheet provides essential information such as the electrical characteristics, pin configuration, operating conditions, and detailed descriptions of the various functionalities of the IC. This ensures proper usage, helps avoid potential issues, and maximizes the performance and reliability of the circuit design.
 
