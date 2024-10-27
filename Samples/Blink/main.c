@@ -12,12 +12,16 @@
 
 #define _XTAL_FREQ 20000000   // Define clock frequency (20 MHz)
 
-void main(void) {
-    TRISC = 0x00;             // Set PORTC as output
-    while(1) {
-        LATCbits.LATC0 = 1;   // Turn LED on
-        __delay_ms(500);      // Delay 500 ms
-        LATCbits.LATC0 = 0;   // Turn LED off
-        __delay_ms(500);      // Delay 500 ms
+void main() //The main function
+{
+    TRISB=0X00; //Instruct the MCU that the PORTB pins are used as Output.
+    PORTB=0X00; //Make all output of RB3 LOW
+    while(1)    //Get into the Infinite While loop
+    {
+        RB3=1; //LED ON
+        __delay_ms(500);   //Wait
+        RB3=0; //LED OFF
+        __delay_ms(500);   //Wait
+        //Repeat. 
     }
 }
